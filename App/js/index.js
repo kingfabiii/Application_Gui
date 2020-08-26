@@ -70,6 +70,15 @@ xui.Class('App', 'xui.Module',{
             );
             
             append(
+                xui.create("xui.UI.Span")
+                .setHost(host,"xui_ui_span11")
+                .setLeft("31.238095238095237em")
+                .setTop("8.380952380952381em")
+                .setWidth("9.6em")
+                .setHeight("4.8em")
+            );
+            
+            append(
                 xui.create("xui.UI.CSSBox")
                 .setHost(host,"xui_ui_cssbox28")
                 .setClassName("xui-list-item")
